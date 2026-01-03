@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Divyanshu Portfolio — Project Report</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #222; }
+    h1, h2, h3 { color: #111; margin: 0.2in 0 0.1in; }
+    p { margin: 0.08in 0; }
+    .title-page { text-align: center; margin-top: 1.5in; }
+    .container { max-width: 7in; margin: 0 auto; }
+    .meta { margin-top: 0.2in; color: #555; }
+    .section { margin-top: 0.3in; }
+    .list { margin: 0.05in 0 0.05in 0.2in; }
+    .code { font-family: Consolas, Monaco, monospace; background: #f6f6f6; padding: 0.05in 0.08in; border-radius: 4px; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 0.3in 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title-page">
+      <h1>Personal Portfolio — Project Report</h1>
+      <p class="meta">Author: Divyanshu Soni</p>
+      <p class="meta">Date: December 27, 2025</p>
+      <p class="meta">Repository: https://github.com/DivyanshuXOR/personal-portfolio</p>
+    </div>
+
+    <hr />
+
+    <div class="section">
+      <h2>1. Overview</h2>
+      <p>This project is a modern personal portfolio website that highlights skills, event participation, and selected projects. It focuses on clean design, responsive layout, and an engaging user experience with lightweight interactions.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Objectives</h2>
+      <ul class="list">
+        <li>Showcase core skills and recent work with a clear narrative.</li>
+        <li>Offer quick navigation to About, Events, Skills, Projects, and Contact.</li>
+        <li>Provide easy access to external profiles (GitHub, LinkedIn, Figma) and email.</li>
+        <li>Keep assets optimized and the codebase minimal for fast load times.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. Tech Stack</h2>
+      <ul class="list">
+        <li>Frontend: HTML5, CSS3</li>
+        <li>Fonts/Icons: Google Fonts (Poppins), inline SVG icons</li>
+        <li>Media: Local images/videos; selective use of CDN assets</li>
+        <li>Version Control: Git, hosted on GitHub</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. Structure & Key Sections</h2>
+      <ul class="list">
+        <li><b>Hero</b>: Name, tagline, and call-to-action.</li>
+        <li><b>Marquee</b>: Tools/technologies carousel using local icons.</li>
+        <li><b>About</b>: Brief background and motivations.</li>
+        <li><b>Gallery</b>: Visuals and short looping videos.</li>
+        <li><b>Events</b>: Community and conference participation with year badges.</li>
+        <li><b>Skills</b>: Concise descriptions across development and design.</li>
+        <li><b>Projects</b>: Notable works with media previews and links.</li>
+        <li><b>Contact</b>: Form fields and social links for outreach.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Implementation Notes</h2>
+      <ul class="list">
+        <li>Semantic HTML sections for better organization and accessibility.</li>
+        <li>Consistent button component with hover/drag interaction for visual feedback.</li>
+        <li>Local media stored under <span class="code">Event section/</span>, <span class="code">Gallery section/</span>, <span class="code">Project section/</span>, and <span class="code">main img/</span>.</li>
+        <li>Unnecessary CDN caches removed to keep repository lean.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Highlights</h2>
+      <ul class="list">
+        <li>Dr. Strange AR Magic Filter (ML + CV) embedded as a project highlight.</li>
+        <li>Clean typography and layout with Poppins for a professional look.</li>
+        <li>Responsive containers and grids for various viewport sizes.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>7. Usage & Hosting</h2>
+      <p>Open <span class="code">index.html</span> in any modern browser. For static hosting, deploy the folder to GitHub Pages, Netlify, or any static host. Keep relative paths intact to ensure local images and videos load correctly.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Future Enhancements</h2>
+      <ul class="list">
+        <li>Add light/dark theme toggle with localStorage persistence.</li>
+        <li>Introduce simple animations using CSS instead of heavy JS.</li>
+        <li>Add a dedicated Projects JSON to make the section data-driven.</li>
+        <li>Optimize images/videos with modern formats and sizes.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>9. Links</h2>
+      <ul class="list">
+        <li>GitHub: <a href="https://github.com/DivyanshuXOR" target="_blank">github.com/DivyanshuXOR</a></li>
+        <li>Portfolio Repo: <a href="https://github.com/DivyanshuXOR/personal-portfolio" target="_blank">personal-portfolio</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/divyanshu-soni-938468334" target="_blank">divyanshu-soni</a></li>
+        <li>Figma: <a href="https://www.figma.com/@Divyanshu_22" target="_blank">@Divyanshu_22</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>10. Contact</h2>
+      <p>Email: <a href="mailto:sonidivyanshu200@gmail.com">sonidivyanshu200@gmail.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
